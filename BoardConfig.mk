@@ -93,7 +93,7 @@ TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
 TW_EXCLUDE_SUPERSU := true
-TW_USE_TOOLBOX := true
+
 BOARD_HAS_NO_REAL_SDCARD := true
 BOARD_HAS_NO_MISC_PARTITION := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
