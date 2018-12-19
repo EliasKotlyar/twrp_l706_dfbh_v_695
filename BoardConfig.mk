@@ -51,7 +51,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 # RECOVERY
-TARGET_RECOVERY_FSTAB := device/alps/l706/recovery/root/twrp.fstab
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
 
 # PARTTIONS
 # We need the partitions size in decimal
